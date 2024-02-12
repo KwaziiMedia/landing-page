@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 12px;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+.logo{
+    margin: 0;
+    padding: 0;
+    width: 125px;
+    height: auto;
+    background: none;
+}
+.list{
+    
+}
+ul{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    gap: 125px;
+}
+li{
+
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 18px;
+}
+.home-container{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px;
+    padding-left: 300px;
+    padding-right: 300px;
+    height: 325px;
+}
+.main-header{
+    color: aliceblue;
+    font-size: 50px;
+    font-weight: 800;
+    margin: 0;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #663dff;
+}
+.main-description{
+    color: #663dff;
+    flex-wrap: wrap;
+    width: 350px;
+    font-size: 25px;
+}
+.main-image{
+    width: 550px;
+    height: 250px;
+    border-radius: 25px;
+}
+.main-sign-btn{
+    background-color: #663dff;
+    background-image: linear-gradient(319deg, #663dff 0%, #aa00ff 37%, #cc4499 100%);
+    color: black;
+    width: 125px;
+    height: 35px;
+    border-radius: 25px;
+    border: none;
+}
