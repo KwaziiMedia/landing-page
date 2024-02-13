@@ -9,7 +9,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: black;
+    background-color: #090909;
     padding: 12px;
     padding-left: 300px;
     padding-right: 300px;
@@ -40,7 +40,7 @@ a{
     font-size: 18px;
 }
 .home-container{
-    background-color: black;
+    background-color: #090909;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -48,6 +48,7 @@ a{
     padding-left: 300px;
     padding-right: 300px;
     height: 335px;
+    padding-bottom: 100px;
 }
 .main-header{
     color: aliceblue;
@@ -56,6 +57,7 @@ a{
     margin: 0;
     padding-bottom: 10px;
     border-bottom: 2px solid #663dff;
+    margin-top: 50px;
 }
 .main-description{
     color: #663dff;
@@ -65,8 +67,9 @@ a{
 }
 .main-image{
     width: 550px;
-    height: 250px;
+    height: 285px;
     border-radius: 25px;
+    margin-top: 50px;
 }
 .main-sign-btn{
     background-color: #663dff;
@@ -78,15 +81,60 @@ a{
     border: none;
 }
 .about-container{
-    background-color: #663dff;
-    height: 325px;
+    background-color: #a4508b;
+    background-image: linear-gradient(326deg, #a4508b 0%, #5f0a87 74%);
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 50px;
 }
 .about-header{
     font-size: 40px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 .info-container{
     display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 75px;
+}
+.about-image{
+    width: 100px;
+    height: auto;
+    padding: 15px;
+    border: 3px solid black;
+    border-radius: 25px;
+}
+.about-paragraph{
+    width: 136px;
+    text-wrap: wrap;
+    text-align: center;
+}
+.quote-container{
+    background: linear-gradient(179.4deg, rgb(12, 20, 69) -16.9%, rgb(71, 30, 84) 119.9%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.quote{
+    color: white;
+    font-size: 35px;
+    text-align: start;
+    flex-wrap: wrap;
+    width: 750px;
+    height: auto;
+    padding: 50px;
+    padding-bottom: 5px;
+    font-style: italic;
+    margin-bottom: 0;
+}
+.author{
+    color: white;
+    margin: 2px;
+    padding-left: 735px;
+    font-size: 32px;
+    padding-bottom: 50px;
+    font-weight: 900;
 }
