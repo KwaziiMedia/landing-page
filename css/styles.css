@@ -98,6 +98,8 @@ a{
     justify-content: center;
     align-items: center;
     gap: 75px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 .about-image{
     width: 100px;
@@ -117,6 +119,8 @@ a{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 .quote{
     color: white;
@@ -137,4 +141,61 @@ a{
     font-size: 32px;
     padding-bottom: 50px;
     font-weight: 900;
+}
+.signup-container{
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    background-color: #090909;
+}
+.signup-content{
+    background-color: #663dff;
+    padding: 25px;
+    border-radius: 20px;
+    margin: 200px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 1000px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+.signup-info-container{
+    margin: none;
+    padding: none;
+}
+.signup-btn2 {
+    background-color: white;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 5px solid white;
+    border-radius: 5px;
+}
+.signup-btn2 a{
+    color: black;
+    font-weight: 900;
+}
+.signup-header{
+    font-weight: 900;
+    font-size: 2rem;
+    margin: 8px;
+    margin-left: 0;
+}
+.signup-paragraph{
+    text-wrap: wrap;
+    width: 500px;
+    margin: 0;
+}
+.footer{
+    background: linear-gradient(179.4deg, rgb(12, 20, 69) -16.9%, rgb(71, 30, 84) 119.9%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-text{
+    font-size: 20px;
+    padding: 20px;
 }
